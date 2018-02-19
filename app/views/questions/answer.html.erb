@@ -4,12 +4,16 @@
     <div class="col-xs-12 col-md-6 col-lg-6">
       <h1>Supid Coaching</h1>
       <div class="asking">
-        <p><%=@question%> <br>
-        -you </p>
+        <blockquote>
+        <p><%=@question%> </p>
+        <cite title="Source Title">Source Title</cite>
+      </blockquote>
       </div>
       <div class="answering">
+        <blockquote>
         <p><strong><%=@answer%></strong></p>
-        <p>-your coach</p>
+        <cite title="Source Title">your coach</cite>
+      </blockquote>
       </div>
       <a href="ask/">Ask a new question</a>
     </div>
